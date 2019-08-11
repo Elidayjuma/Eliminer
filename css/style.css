@@ -1,0 +1,207 @@
+/*********
+*******
+header
+*******
+*********/
+
+h1 {
+	margin: 0;
+   font-size: 60px;
+   text-align: center;
+   letter-spacing: -5px;
+   margin-top: 20px;
+   text-shadow: 0 1px 0 yellow; 
+}
+
+h1 {
+   border-bottom: 1px solid #999;
+}
+
+header {
+   overflow: hidden;
+}
+
+.banner {
+   //background: url(../img/mic.jpg) no-repeat;
+   background-color: black;
+   width: 70%;
+   height: 400px;
+   float: left;
+   overflow: hidden;
+   padding-top: 140px;
+}
+
+.banner p {
+   color: white;
+   font-size: 30px;
+   width: 80%;
+   padding-top: 0px;
+}
+.banner2 {
+   background: green;
+   float: right;
+   width: 25%;
+   height: 400px;
+}
+
+/*********
+*******
+main menu
+*******
+*********/
+
+.meta {
+   list-style: none;
+   width: 600px;
+   float: left;
+   font-size:17px;
+}
+
+.meta li {
+   display: inline;
+   padding-left: 30px; 
+}
+/*********
+*******
+Miscellenous
+*******
+*********/
+a:hover {
+   color: black;
+   text-decoration: underline;
+}
+
+a {
+   text-decoration: none;
+   color: #7e7e7e
+}
+
+/*********
+*******
+reg Menu
+*******
+*********/
+.reg {
+   list-style: none;
+   float: right;
+   font-size: 17px;
+}
+
+.reg li {
+   display: inline;
+   padding-right: 20px;
+}
+/*********
+*******
+grid_3
+*******
+*********/
+.grid_3 {
+   width: 28%;
+   float: left;
+   margin: 20px 20px;
+   margin-top: 50px;
+}
+/*********
+*******
+body styling
+*******
+*********/
+.wrap {
+   margin: auto;
+   min-width: 600px;
+   width: 80%;
+   overflow: hidden;
+   border-bottom: 1px solid #999;
+}
+/*********
+*******
+body styling
+*******
+*********/
+.footer {
+   margin-left: 50%;
+   margin-top: 20px;
+}
+/*********
+*******
+forms
+*******
+*********/
+form li {
+   list-style: none;
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+label {
+   display: block; 
+   font-style:inherit;
+   padding-bottom: 8px;
+}
+/*********
+*******
+myBtn
+*******
+*********/
+#myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: black; /* Set a background color */
+      box-shadow: 0 1px 0 yellow;
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+    }
+/*********
+*******
+scrapping button
+*******
+*********/
+    #scrapbtn {
+      //display: none; /* Hidden by default */
+      //position: fixed; /* Fixed/sticky position */
+      //bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: black; /* Set a background color */
+      box-shadow: 0 1px 0 yellow;
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+    }
+/*********
+*******
+the url textbox
+*******
+*********/
+    #url{
+       border-radius: 10px;
+       padding: 15px;
+       box-shadow: 0 1px 0 yellow;
+    }
+
+  /*********
+*******
+the output text area
+*******
+*********/
+    #value{
+       border-radius: 10px;
+       border: 2px;
+       border-color: black;
+       padding: 15px;
+       margin-top: 5px;
+    }
